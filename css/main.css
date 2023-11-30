@@ -1,0 +1,29 @@
+body {
+    width: 75%;
+    max-width: 1175px;
+    margin: 0 auto;
+}
+
+header {
+    padding-top: 10px;
+    background-color: #1F2937;
+}
+
+header div img {
+    width: 10%;
+    max-width: 75px;
+}
+
+header div ul {
+    list-style: none;
+}
+
+.secondary_text {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.a_without_style {
+    text-decoration: none;
+    color: inherit;
+}
