@@ -1,7 +1,16 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     width: 85%;
     max-width: 1175px;
     margin: 0 auto;
+}
+
+.html_elements_margin {
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 .bold_color_white {
@@ -13,7 +22,7 @@ body {
 
 .secondary_text {
     color: #E5E7EB;
-    font-size: 14px;
+    font-size: 12px;
     opacity: 85%;
     margin-top: 0px;
     margin-bottom: 0px;
@@ -38,14 +47,12 @@ body {
 }
 
 header {
-    padding-left: 10%;
-    padding-right: 10%;
     padding-top: 10px;
     background-color: #1F2937;
     height: 400px;
 }
 
-header div:first-of-type {
+.nav_box {
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-between;
@@ -54,23 +61,93 @@ header div:first-of-type {
     padding-top: 10px;
 }
 
-header div:first-of-type img {
+.nav_box img {
     max-width: 100%;
     max-height: 100%;
     margin-left: 15px;
 }
 
-header div:first-of-type ul {
+.nav_box ul {
     list-style: none;
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-between;
+    gap: 17.5px;
 }
 
-header ul li {
-    margin-right: 25px;
+.header_text_box {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    margin-top: 70px;
+    gap: 3.5%px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-header div:last-of-type {
-    width: 43.75%;
+.header_big_text {
+    width: 48.5%;
+    max-width: 385px;
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+}
+
+.header_big_text h2 {
+    margin-top: 0px;
+}
+
+.placeholder_image {
+    background-color: rgba(180, 180, 180, 0.74);
+    width: 48.5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+    max-width: 385px;
+    color: white;
+    opacity: 85%;
+}
+
+.random_info_section {
+    margin-top: 0px;
+    border: 1px solid;
+    height: 365px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.random_info_section h3 {
+    font-size: 25px;
+    width: 100%;
+    text-align: center;
+    margin-bottom: -20px;
+}
+
+.random_info_article {
+    width: 20%;
+    margin-top: -50px;
+}
+
+.random_image_text {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.random_image_text img {
+    max-width: 90%;
+    border-radius: 12px;
+}
+
+.random_image_text p {
+    width: 90%;
+    margin-top: 0px;
+    font-size: 13px;
+    color: grey;
+    text-align: center;
 }
